@@ -1,0 +1,5 @@
+.idea/
+/src/test/**/*.json
+
+# Project exclude paths
+/target/
