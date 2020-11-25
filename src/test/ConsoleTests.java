@@ -34,7 +34,7 @@ public class ConsoleTests {
                             .setUniversityHead("Викторов", "Виктор", "Викторович", Sex.MALE)
                             .createFaculty("Системного анализа")
                             .setFacultyHead("Янукович", "Олег", "Андреевич", Sex.MALE)
-                            .createDepartment("истемного анализа")
+                            .createDepartment("Системного анализа")
                             .setDepartmentHead("Путин", "Антон", "Ростиславович", Sex.MALE)
                             .createGroup("124-18ск-1")
                             .setGroupHead("Клопотенко", "Евгений", "Сергеевич", Sex.MALE)
