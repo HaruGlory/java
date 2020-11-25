@@ -31,16 +31,16 @@ public class ConsoleTests {
         jsonManager.setSerializable(
                         universityBuilder
                             .createUniversity("NTU")
-                            .setUniversityHead("Linus", "Benedict", "Torvalds", Sex.MALE)
-                            .createFaculty("System analysis and management")
-                            .setFacultyHead("Dennis", "MacAlistair", "Ritchie", Sex.MALE)
-                            .createDepartment("System analysis and management")
-                            .setDepartmentHead("Kenneth", "Lane", "Thompson", Sex.MALE)
-                            .createGroup("124-18sk-1")
-                            .setGroupHead("Bjarne", "Stroustrup", "Stroustrupovich", Sex.MALE)
-                            .createStudent("Auff", "Auffovich", "Auffov", Sex.MALE)
-                            .createStudent("Jekos", "Jekosovich", "Jekson", Sex.MALE)
-                            .createStudent("Nastyxa", "Naste4ka", "Anastasia", Sex.FEMALE).compose());
+                            .setUniversityHead("Викторов", "Виктор", "Викторович", Sex.MALE)
+                            .createFaculty("Системного анализа")
+                            .setFacultyHead("Янукович", "Олег", "Андреевич", Sex.MALE)
+                            .createDepartment("истемного анализа")
+                            .setDepartmentHead("Путин", "Антон", "Ростиславович", Sex.MALE)
+                            .createGroup("124-18ск-1")
+                            .setGroupHead("Клопотенко", "Евгений", "Сергеевич", Sex.MALE)
+                            .createStudent("Белоусов", "Луффи", "Валерьевич", Sex.MALE)
+                            .createStudent("Запашный", "Валентин", "Валентинович", Sex.MALE)
+                            .createStudent("Гаспарян", "Асмик", "Робертовна", Sex.FEMALE).compose());
 
         jsonManager.convertToJson(defaultPath);
 
