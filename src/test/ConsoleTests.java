@@ -30,7 +30,7 @@ public class ConsoleTests {
         UniversityBuilder universityBuilder = new UniversityBuilder();
         jsonManager.setSerializable(
                         universityBuilder
-                            .createUniversity("NTU")
+                            .createUniversity("НТУ")
                             .setUniversityHead("Викторов", "Виктор", "Викторович", Sex.MALE)
                             .createFaculty("Системного анализа")
                             .setFacultyHead("Янукович", "Олег", "Андреевич", Sex.MALE)
